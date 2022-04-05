@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container border-b border-slate-600/25">
+            <div class="flex items-center justify-between relative ">
+                <div class="px-4">
+                    <a href="#" class="block py-6 text-blue-500 font-bold text-lg">maulanayusuf</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-slate-900 py-4 px-8 flex group-hover:text-blue-500">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-slate-900 py-4 px-8 flex group-hover:text-blue-500">
+                                    About
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-slate-900 py-4 px-8 flex group-hover:text-blue-500">
+                                    Portfolio
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- heroo section -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold md:text-xl lg:text-2xl text-blue-500">
+                        Hallo Saya 
+                        <span class="block font-bold text-4xl  text-slate-900">
+                            Muhammad Maulana Yusuf
+                        </span>
+                    </h1>
+                    <h2 class="text-slate-800 mb-5">Web developer</h2>
+                    <p class="text-black font-semibold mb-10 leading-relaxed">saya asalah seorang programer pemula yang sedang banyak belajar</p>
+                    <a href="#contact" class="py-3 px-6 bg-teal-500 text-white font-semibold rounded-full
+                    transition duration-300 ease-in-out hover:shadow-lg hover:bg-teal-600">
+                    Find Me
+                    </a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="mt-10 relative lg:mt-0 lg:right-0">
+                        <img src="./dist/img/yusuf.png" alt="yusuf" class=" mx-auto max-w-full md:w-1/2 lg:w-1/2">
+                        <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2">
+                            <svg width="500" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#14b8a6" d="M44,-15.3C49.5,2.3,41,23.5,24,36.7C7.1,49.8,-18.3,55,-36.1,43.5C-53.9,32.1,-64.2,3.9,-56.9,-16.3C-49.6,-36.6,-24.8,-49,-2.7,-48.1C19.3,-47.2,38.6,-33,44,-15.3Z" transform="translate(100 100) scale(1.5,1.5)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="text-blue-500 uppercase font-bold text-lg mb-4">Tentang saya</h4>
+                    <p class="font-semibold text-justify text-base lg:text-lg  text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus provident magnam, non id dolores voluptas perferendis doloremque tempora aliquam quas nam excepturi quibusdam vel accusantium nisi pariatur voluptatibus voluptates doloribus.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="text-blue-500 font-bold text-lg uppercase mb-4">mari berteman</h3>
+                    <p class="font-semibold text-justify text-base lg:text-lg  text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, corporis facere maxime veniam ex voluptatem adipisci modi placeat nisi, blanditiis molestiae, rem voluptatibus mollitia. Provident harum ducimus tenetur fuga ullam!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- portfolio -->
+    <section id="portfolio" class="pt-32 pb-16 bg-slate-200">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-blue-500 mb-2">Portfolio</h4>
+                    <h2 class="font-bold text-slate-900 text-3xl mb-4">Project Terbaru</h2>
+                    <p class="font-medium text-md text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, accusantium natus aspernatur soluta suscipit provident excepturi, consectetur reprehenderit iste necessitatibus explicabo corrupti quod hic unde eius minus quis error voluptatum?</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden mb-3">
+                        <img src="./dist/img/amandah.PNG" class="w-full" alt="hotel amandah">
+                    </div>
+                    <h3 class="font-semibold text-lg text-slate-900 mb-4 text-center">Hotel Amandah</h3>
+                    <p class="text-center tetxt-base text-slate-500 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nesciunt culpa provident.</p>
+                </div>
+                <div class="mb-12 p-4 lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden mb-3">
+                        <img src="./dist/img/bhineka1.PNG" class="w-full" alt="bhineka">
+                    </div>
+                    <h3 class="font-semibold text-lg text-slate-900 mb-4 text-center">Bhineka Copy Web</h3>
+                    <p class="text-center tetxt-base text-slate-500 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nesciunt culpa provident.</p>
+                </div>
+            </div>
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h2 class="font-bold text-slate-900 text-3xl mb-4">My Project In GitHub</h2>
+                    <div class="w-full border-b border-slate-800/50 py-4 mb¬5 text-left ">
+                        <p class="text-base text-slate-500 px-4 mb-2">my final project at university</p>
+                        <a href="https://github.com/mmyusuf48/sekolah" class="text-blue-500 hover:text-blue-500/75 px-4">
+                            <i class="fa-solid fa-right-long mr-3"></i>https://github.com/mmyusuf48/ptmwt
+                        </a>
+                    </div>
+                    <div class="w-full  py-4 text-left rounded-md">
+                        <p class="text-base text-slate-500 px-4 mb-2">RestFull API Backend Learning Project Using Laravel</p>
+                        <a href="https://github.com/mmyusuf48/sekolah" class="text-blue-500 hover:text-blue-500/75 px-4">
+                            <i class="fa-solid fa-right-long mr-3"></i>https://github.com/mmyusuf48/sekolah
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- contact -->
+    <section id="contact" class="pt-20 pb-16 bg-slate-700">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 text-left text-white lg:w-1/2">
+                    <h4 class="mb-4 font-semibold text-xl">Find Me</h4>
+                    <ul>
+                        <li class="my-3">
+                            <a href="#contact" class="hover:bg-slate-600 rounded-md py-2 px-2 transition-transform duration-300"><i class="fa-brands fa-whatsapp mr-3"></i>0878 8012 6910</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#contact" class="hover:bg-slate-600 rounded-md py-2 px-2 transition-transform duration-300"><i class="fa-solid fa-envelope mr-3"></i>yusuf.my48.my@gmail.com</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="https://www.instagram.com/muhmyu/" class="hover:bg-slate-600 blank rounded-md py-2 px-2 transition-transform duration-300"><i class="fa-brands fa-instagram mr-3"></i>@muhmyu</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 text-left text-white lg:w-1/2">
+                    <p class="text-center lg:pt-16 "></p><i class="fa-solid fa-copyright mr-3"></i>CopyRight 2022 Yusuf</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
