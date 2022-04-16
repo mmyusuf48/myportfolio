@@ -12,7 +12,7 @@
 
     <!-- navbar -->
     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
-        <div class="container border-b border-slate-600/25">
+        <div class="container ">
             <div class="flex items-center justify-between relative ">
                 <div class="px-4">
                     <a href="#" class="block py-6 text-blue-500 font-bold text-lg">MaulanaYusuf</a>
@@ -115,24 +115,49 @@
             </div>
             <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                 <div class="mb-12 p-4 lg:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden mb-3">
-                        <img src="./dist/img/amandah.PNG" class="w-full" alt="hotel amandah">
-                    </div>
-                    <h3 class="font-semibold text-lg text-slate-900 mb-4 text-center">
+                        <button id="click-btn" class=" mx-5  drop-shadow-md hover:drop-shadow-xl text-semibold text-gray-200 hover:bg-blue-600 transition-all duration-100 delay-100">
+                            <img src="./dist/img/amandah.PNG" alt="" class="w-full lg:max-w-md rounded-md overflow-hidden">
+                        </button>
+                        <div id="overlay-btn" class="bg-slate-600 bg-opacity-75 absolute inset-0 hidden justify-center items-center">
+                            <div class=" max-w-sm py-2 lg:max-w-5xl px-2 ">
+                                <div class="flex justify-end ">
+                                    <svg id="close-btn" class=" w-6 h-6 hover:bg-gray-200/75 hover-md rounded cursor-pointer transition-all duration-100 delay-100" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                                </div>
+                                <div class="mt-2">
+                                    <img src="./dist/img/amandah.PNG" alt="" class="rounded-md">
+                                </div>
+                            </div>
+                        </div>
+                    <h3 class=" font-semibold text-lg text-slate-900 mb-4 text-center">
                         Hotel Amandah
                     </h3>
-                    <p class="text-center tetxt-base text-slate-500 ">
+                    <p class="text-center text-base text-slate-500 mb-3">
                         this is my project for the BNSP competency test organized by KOMINFO
                     </p>
+                    <div class="text-center">
+                        <a href="https://drive.google.com/file/d/17anHkgglkJrhddXdKWxKPvH8NiOPIdhE/view?usp=sharing" target="_blank" class="text-blue-500 hover:text-blue-500/75 px-4 ">
+                            <i class="fa-solid fa-right-long mr-3"></i>Sertifikat BNSP
+                        </a>
+                    </div>
                 </div>
                 <div class="mb-12 p-4 lg:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden mb-3">
-                        <img src="./dist/img/bhineka1.PNG" class="w-full" alt="bhineka">
-                    </div>
-                    <h3 class="font-semibold text-lg text-slate-900 mb-4 text-center">
+                        <button id="click-btn1" class=" mx-5   drop-shadow-md hover:drop-shadow-xl text-semibold text-gray-200 hover:bg-blue-600 transition-all duration-100 delay-100">
+                            <img src="./dist/img/bhineka1.PNG" alt="" class="w-full lg:max-w-md rounded-md overflow-hidden">
+                        </button>
+                        <div id="overlay-btn" class="bg-slate-600 bg-opacity-75 absolute inset-0 hidden justify-center items-center">
+                            <div class=" max-w-sm py-2 lg:max-w-5xl px-2 ">
+                                <div class="flex justify-end ">
+                                    <svg id="close-btn1" class=" w-6 h-6 hover:bg-gray-200/75 hover-md rounded cursor-pointer transition-all duration-100 delay-100" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                                </div>
+                                <div class="mt-2">
+                                    <img src="./dist/img/bhineka1.PNG" alt="" class="rounded-md">
+                                </div>
+                            </div>
+                        </div>
+                    <h3 class=" font-semibold text-lg text-slate-900 mb-4 text-center">
                         Bhineka Copy Web
                     </h3>
-                    <p class="text-center tetxt-base text-slate-500 ">
+                    <p class="text-center text-base text-slate-500 mb-3">
                         this is a web copy project I learned to use Html and Css
                     </p>
                 </div>
@@ -146,7 +171,7 @@
                         <p class="text-base text-slate-500 px-4 mb-2">
                             my final project at university
                         </p>
-                        <a href="https://github.com/mmyusuf48/sekolah" class="text-blue-500 hover:text-blue-500/75 px-4">
+                        <a href="https://github.com/mmyusuf48/sekolah" target="_blank" class="text-blue-500 hover:text-blue-500/75 px-4">
                             <i class="fa-solid fa-right-long mr-3"></i>https://github.com/mmyusuf48/ptmwt
                         </a>
                     </div>
@@ -154,7 +179,7 @@
                         <p class="text-base text-slate-500 px-4 mb-2">
                             RestFull API Backend Learning Project Using Laravel
                         </p>
-                        <a href="https://github.com/mmyusuf48/sekolah" class="text-blue-500 hover:text-blue-500/75 px-4">
+                        <a href="https://github.com/mmyusuf48/sekolah" target="_blank" class="text-blue-500 hover:text-blue-500/75 px-4">
                             <i class="fa-solid fa-right-long mr-3"></i>https://github.com/mmyusuf48/sekolah
                         </a>
                     </div>
@@ -196,5 +221,42 @@
     </section>
 
     <script src="dist/js/script.js"></script>
+    <script>
+        var overlay = document.querySelector('#overlay-btn')
+        var toggleModal = () => {
+                overlay.classList.toggle('hidden')
+                overlay.classList.toggle('flex')
+            }
+
+        window.addEventListener
+        ('DOMContentLoaded', () => {
+            const clkbtn = document.querySelector('#click-btn')
+            const clsbtn = document.querySelector('#close-btn')
+            const clkbtn1 = document.querySelector('#click-btn1')
+            const clsbtn1 = document.querySelector('#close-btn1')
+
+            clkbtn.addEventListener('click', toggleModal, () =>{
+                setTimeout(function(){
+                    clkbtn.hide();
+                },900);
+            })
+            clsbtn.addEventListener('click', toggleModal, () =>{
+                setTimeout(function(){
+                    clkbtn.hide();
+                },900);
+            })
+            clkbtn1.addEventListener('click', toggleModal, () =>{
+                setTimeout(function(){
+                    clkbtn.hide();
+                },900);
+            })
+            clsbtn1.addEventListener('click', toggleModal, () =>{
+                setTimeout(function(){
+                    clkbtn.hide();
+                },900);
+            })
+        })
+
+    </script>
 </body>
 </html>
